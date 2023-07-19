@@ -5,6 +5,7 @@ public class PrintNumbers {
         Scanner scanner=new Scanner(System.in);
         int input= scanner.nextInt();
         Print(input);
+        System.out.println();
     }
     public static void Print(int input) {
         int result = 0;
